@@ -15,3 +15,6 @@ TCO = preço − residual + custos iniciais + custos correntes. Cenários variam
 
 ## Validação
 Verificação de sintaxe JS e dados JSON; teste de browser e API pendente.
+
+## v4.0 — Capital & Ownership
+Novo, seminovo e usado; depreciação inicial distinta para novo; manutenção crescente, garantia indicativa, estacionamento, financiamento amortizado, património líquido e capital remanescente. Prioridades pessoais ponderadas e emissões opcionais introduzidas pelo utilizador. O saldo de capital não inclui rendimentos familiares e pode ser negativo; comparação exige igual orçamento inicial. Taxas e reservas são pressupostos, não previsões. Dados de motor provisórios. A chave OpenRouter não é persistida. Dados v2 locais mantidos; avaliações antigas usam valores de fallback para novos campos. Teste de sintaxe JS realizado; browser e API não testados.
