@@ -1,0 +1,246 @@
+[
+  {
+    "brand": "Toyota",
+    "code": "1AD-FTV",
+    "name": "2.0 D-4D",
+    "timing": "Corrente",
+    "pros": [
+      "Binário e consumo"
+    ],
+    "risks": [
+      "EGR",
+      "DPF",
+      "Perda de líquido de refrigeração"
+    ],
+    "reserve": 1500,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Toyota",
+    "code": "2ZR-FXE",
+    "name": "1.8 Hybrid",
+    "timing": "Corrente",
+    "pros": [
+      "Economia urbana",
+      "Transmissão híbrida"
+    ],
+    "risks": [
+      "Bateria híbrida",
+      "EGR em algumas gerações"
+    ],
+    "reserve": 1100,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Renault",
+    "code": "K9K",
+    "name": "1.5 dCi",
+    "timing": "Correia",
+    "pros": [
+      "Consumo baixo"
+    ],
+    "risks": [
+      "Injeção",
+      "Turbo",
+      "DPF quando equipado"
+    ],
+    "reserve": 1300,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Renault",
+    "code": "K4M",
+    "name": "1.6 16V",
+    "timing": "Correia",
+    "pros": [
+      "Simplicidade",
+      "Motor atmosférico"
+    ],
+    "risks": [
+      "Bobinas",
+      "Distribuição",
+      "Fugas"
+    ],
+    "reserve": 800,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Volkswagen",
+    "code": "EA189",
+    "name": "2.0 TDI",
+    "timing": "Correia",
+    "pros": [
+      "Binário",
+      "Economia"
+    ],
+    "risks": [
+      "EGR",
+      "DPF",
+      "Bimassa"
+    ],
+    "reserve": 1500,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Volkswagen",
+    "code": "1.9 TDI",
+    "name": "1.9 TDI",
+    "timing": "Correia",
+    "pros": [
+      "Economia",
+      "Disponibilidade de peças"
+    ],
+    "risks": [
+      "Turbo",
+      "EGR",
+      "Bimassa conforme versão"
+    ],
+    "reserve": 1100,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "PSA",
+    "code": "DV6",
+    "name": "1.6 HDi / TDCi",
+    "timing": "Correia",
+    "pros": [
+      "Economia"
+    ],
+    "risks": [
+      "Lubrificação do turbo",
+      "Vedantes dos injetores",
+      "DPF"
+    ],
+    "reserve": 1500,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Stellantis",
+    "code": "EB2",
+    "name": "1.2 PureTech",
+    "timing": "Conforme versão",
+    "pros": [
+      "Consumo",
+      "Peso baixo"
+    ],
+    "risks": [
+      "Correia banhada em óleo nas versões aplicáveis",
+      "Consumo de óleo"
+    ],
+    "reserve": 1800,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Ford",
+    "code": "1.0 EcoBoost",
+    "name": "1.0 EcoBoost",
+    "timing": "Conforme versão",
+    "pros": [
+      "Binário",
+      "Consumo"
+    ],
+    "risks": [
+      "Distribuição conforme versão",
+      "Circuito de refrigeração"
+    ],
+    "reserve": 1700,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Honda",
+    "code": "R18",
+    "name": "1.8 i-VTEC",
+    "timing": "Corrente",
+    "pros": [
+      "Motor atmosférico",
+      "Potência"
+    ],
+    "risks": [
+      "Folga de válvulas",
+      "Fugas de óleo"
+    ],
+    "reserve": 800,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Hyundai / Kia",
+    "code": "D4FB",
+    "name": "1.6 CRDi",
+    "timing": "Corrente",
+    "pros": [
+      "Economia",
+      "Binário"
+    ],
+    "risks": [
+      "EGR",
+      "DPF",
+      "Injeção"
+    ],
+    "reserve": 1300,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Opel",
+    "code": "X17DT",
+    "name": "1.7 TD Isuzu",
+    "timing": "Correia",
+    "pros": [
+      "Simplicidade",
+      "Reparabilidade"
+    ],
+    "risks": [
+      "Refrigeração",
+      "Fugas de óleo"
+    ],
+    "reserve": 900,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Nissan",
+    "code": "YD22",
+    "name": "2.2 dCi",
+    "timing": "Corrente",
+    "pros": [
+      "Binário"
+    ],
+    "risks": [
+      "Turbo",
+      "Intercooler",
+      "Injeção"
+    ],
+    "reserve": 1600,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Mazda",
+    "code": "PE",
+    "name": "2.0 Skyactiv-G",
+    "timing": "Corrente",
+    "pros": [
+      "Motor atmosférico",
+      "Eficiência"
+    ],
+    "risks": [
+      "Ignição",
+      "Fugas",
+      "Verificar manutenção"
+    ],
+    "reserve": 900,
+    "status": "Provisório — sem validação documental"
+  },
+  {
+    "brand": "Toyota",
+    "code": "2ZR-FAE",
+    "name": "1.8 Valvematic",
+    "timing": "Corrente",
+    "pros": [
+      "Motor atmosférico"
+    ],
+    "risks": [
+      "Atuador Valvematic",
+      "Bomba de água"
+    ],
+    "reserve": 1000,
+    "status": "Provisório — sem validação documental"
+  }
+]
