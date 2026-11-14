@@ -24,3 +24,6 @@ Indicadores IHPC Eurostat para novos/usados, PT/UE, variações 1/3/6/12/60 mese
 
 ## v5.1
 Consulta direta ao Eurostat (prc_hicp_minr, ECOICOP 2, I25), com cache e diagnóstico de erros. O workflow usa o mesmo dataset. Se o browser bloquear CORS, executar Update market data em Actions e aguardar publicação. Não foram efetuados testes de rede neste ambiente.
+
+## v5.2
+Parâmetros de compra primeiro; mercado no final. Tentativas alternativas de índice I25/I15; cache parcial preservado. Consulte os logs de Actions se a API falhar. A integração ao vivo não foi testada neste ambiente.

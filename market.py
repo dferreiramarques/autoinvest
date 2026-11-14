@@ -14,7 +14,7 @@ if __name__=='__main__':
         for kind,code in [('new','CP0711'),('used','CP0712')]:
             # ECOICOP legacy codes: new/used are subcategories of CP0711; try explicit subindices only.
             code={'new':'CP07111','used':'CP07112'}[kind]
-            for unit in ['I25']:
+            for unit in ['I25','I15']:
                 try:
                     q=urllib.parse.urlencode({'lang':'EN','freq':'M','unit':unit,'coicop18':code,'geo':geo,'sinceTimePeriod':'2020-01'})
                     with urllib.request.urlopen(BASE+'?'+q,timeout=45) as r: d=json.load(r)
@@ -22,5 +22,9 @@ if __name__=='__main__':
                     if ('new' if kind=='new' else 'second') not in label.lower() and (kind!='used' or 'used' not in label.lower()): raise ValueError(label)
                     data['series'][geo+'-'+kind]={'label':label,'unit':unit,'points':parse(d)};break
                 except Exception as e: print(geo,kind,unit,e)
-    if len(data['series'])!=4: raise SystemExit('Incomplete data; previous cache preserved')
+    if not data['series']: raise SystemExit('No data; previous cache preserved')
+    try:
+        with open('market-cache.json') as f: old=json.load(f)
+        for key,series in old.get('series',{}).items(): data['series'].setdefault(key,series)
+    except (OSError,ValueError): pass
     with open('market-cache.json','w') as f: json.dump(data,f,indent=2)
