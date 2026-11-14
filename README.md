@@ -21,3 +21,6 @@ Novo, seminovo e usado; depreciação inicial distinta para novo; manutenção c
 
 ## v5 — Market Intelligence
 Indicadores IHPC Eurostat para novos/usados, PT/UE, variações 1/3/6/12/60 meses. O cache inicial está vazio (sem valores inventados). Em Actions > Update market data > Run workflow, executar a primeira recolha; depois corre diariamente. Se necessário autorizar escrita em Settings > Actions. A atualização valida os rótulos e preserva o cache se faltar uma série. Os códigos e endpoints necessitam de validação em produção; caso a classificação Eurostat mude, ajustar market.py. Commits por GITHUB_TOKEN podem não disparar a publicação Pages: usar publicação manual ou workflow Pages próprio. Em modo file:// o fetch pode ser bloqueado; servir via HTTP. Buy or Wait usa cenário editável, não previsão.
+
+## v5.1
+Consulta direta ao Eurostat (prc_hicp_minr, ECOICOP 2, I25), com cache e diagnóstico de erros. O workflow usa o mesmo dataset. Se o browser bloquear CORS, executar Update market data em Actions e aguardar publicação. Não foram efetuados testes de rede neste ambiente.
